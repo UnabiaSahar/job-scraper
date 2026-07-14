@@ -2,7 +2,7 @@
 
 A production-style ETL (Extract, Transform, Load) script built with Python utilizing `requests` data stream handlers and `BeautifulSoup` to parse unstructured HTML network nodes into clean, relational `.json` data entities.
 
-## ⚠️ Target Selection & Scraping Philosophy
+## ⚠️ Target Selection & Scraping
 Live commercial job portals (such as LinkedIn, Indeed, or Glassdoor) frequently change their HTML CSS class selectors, deploy aggressive Cloudflare anti-bot firewalls, and actively update their DOM trees. 
 
 To ensure this project remains **runnable without constant maintenance**, the scraper targets a dedicated, highly stable, public scraping sandbox:
